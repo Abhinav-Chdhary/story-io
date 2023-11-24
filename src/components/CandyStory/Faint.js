@@ -5,9 +5,14 @@ export default function Faint({ progress, onUpdate }) {
     onUpdate(2);
   };
   return (
-    <div>
-      <img src="/CandyStory/Candy2.png" alt="..." />
-      <button onClick={takeUpdate}>Next</button>
+    <div className="max-w-sm mx-auto">
+      <img className="w-full h-auto" src="/CandyStory/Candy2.png" alt="..." />
+      <button
+        className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        onClick={takeUpdate}
+      >
+        Next
+      </button>
     </div>
   );
 }
