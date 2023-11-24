@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import TitleBar from "./components/TitleBar";
+import WalletStoryHome from "./pages/WalletStoryHome";
+import CandyStoryHome from "./pages/CandyStoryHome";
 
 export default function App() {
   return (
@@ -10,6 +12,8 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
+          <Route exact path="/walletstory" element={<WalletStoryHome />} />
+          <Route exact path="/candystory" element={<CandyStoryHome />} />
         </Routes>
       </BrowserRouter>
     </div>
