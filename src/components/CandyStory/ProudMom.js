@@ -7,7 +7,11 @@ export default function ProudMom({ progress, onUpdate }) {
   };
   return (
     <div>
-      <img className="w-full h-auto" src="/CandyStory/Candy5.png" alt="..." />
+      <img
+        className="w-full h-auto"
+        src="https://abhinav-chdhary.github.io/story-io/CandyStory/Candy5.png"
+        alt="..."
+      />
       <div className="flex justify-center space-x-4 mt-4">
         <button
           className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"

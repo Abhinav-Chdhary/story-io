@@ -8,7 +8,7 @@ export default function () {
         <div className="max-w-sm mx-2 my-4 rounded-lg overflow-hidden shadow-lg">
           <img
             className="w-full h-64 object-cover"
-            src="/WalletIcon.png"
+            src="https://abhinav-chdhary.github.io/story-io/WalletIcon.png"
             alt="Card"
           />
 
@@ -22,7 +22,7 @@ export default function () {
         <div className="max-w-sm mx-2 my-4 rounded-lg overflow-hidden shadow-lg">
           <img
             className="w-full h-64 object-cover"
-            src="/CandyIcon.png"
+            src="https://abhinav-chdhary.github.io/story-io/CandyIcon.png"
             alt="Card"
           />
 
