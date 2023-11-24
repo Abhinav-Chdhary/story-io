@@ -8,7 +8,7 @@ export default function GoHome({ progress, onUpdate }) {
     <div className="max-w-sm mx-auto">
       <img
         className="w-full h-auto"
-        src="https://abhinav-chdhary.github.io/story-io/CandyStory/Candy4.png"
+        src="https://abhinav-chdhary.github.io/story-io/CandyStory/candy4.png"
         alt="..."
       />
       <div className="flex justify-center space-x-4 mt-4">

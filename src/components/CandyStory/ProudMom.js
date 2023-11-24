@@ -9,7 +9,7 @@ export default function ProudMom({ progress, onUpdate }) {
     <div>
       <img
         className="w-full h-auto"
-        src="https://abhinav-chdhary.github.io/story-io/CandyStory/Candy5.png"
+        src="https://abhinav-chdhary.github.io/story-io/CandyStory/candy5.png"
         alt="..."
       />
       <div className="flex justify-center space-x-4 mt-4">

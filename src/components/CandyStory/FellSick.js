@@ -9,7 +9,7 @@ export default function FellSick({ progress, onUpdate }) {
     <div className="max-w-sm mx-auto">
       <img
         className="w-full h-auto"
-        src="https://abhinav-chdhary.github.io/story-io/CandyStory/Candy3.png"
+        src="https://abhinav-chdhary.github.io/story-io/CandyStory/candy3.png"
         alt="..."
       />
       <div className="flex justify-center space-x-4 mt-4">

@@ -12,7 +12,7 @@ export default function CandyStart({ progress, onUpdate }) {
     <div className="max-w-sm mx-auto">
       <img
         className="w-full h-auto"
-        src="https://abhinav-chdhary.github.io/story-io/CandyStory/Candy1.png"
+        src="https://abhinav-chdhary.github.io/story-io/CandyStory/candy1.png"
         alt="Candy"
       />
 

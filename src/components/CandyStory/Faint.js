@@ -8,7 +8,7 @@ export default function Faint({ progress, onUpdate }) {
     <div className="max-w-sm mx-auto">
       <img
         className="w-full h-auto"
-        src="https://abhinav-chdhary.github.io/story-io/CandyStory/Candy2.png"
+        src="https://abhinav-chdhary.github.io/story-io/CandyStory/candy2.png"
         alt="..."
       />
       <button
