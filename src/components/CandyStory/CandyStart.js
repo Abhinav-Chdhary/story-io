@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 
 export default function CandyStart({ progress, onUpdate }) {
-  const [localProgress, setlocalProgress] = useState(progress);
-  const updateParentState = () => {
-    onUpdate(localProgress + 1);
+  const takeUpdate = () => {
+    onUpdate(1);
   };
-  return <button onClick={updateParentState}>CandyStart</button>;
+  const notTakeUpdate = () => {
+    onUpdate(3);
+  };
+  return (
+    <div>
+      <img src="/CandyStory/Candy1.png" alt="..." />
+      <button onClick={takeUpdate}>Take</button>
+      <button onClick={notTakeUpdate}>Not Take</button>
+    </div>
+  );
 }
