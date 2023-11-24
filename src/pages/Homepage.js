@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function () {
+export default function Homepage() {
   return (
     <div className="flex flex-wrap justify-center items-center p-4">
       <Link to="/walletstory">

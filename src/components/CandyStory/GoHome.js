@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function GoHome({ progress, onUpdate }) {
   const takeUpdate = () => {

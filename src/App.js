@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div className="flex items-center justify-center h-screen bg-black text-white">
       <TitleBar />
-      <BrowserRouter>
+      <BrowserRouter basename="/story-io">
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/walletstory" element={<WalletStoryHome />} />
